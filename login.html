@@ -100,11 +100,11 @@
                                     <div class="tab-content">
                                         <div class="tab-content-inner active" data-content="signup">
                                             <h3>Login</h3>
-                                            <form action="#">
+                                            <form id="formLogin" method="post" action="#">
                                                 <div class="row form-group">
                                                     <div class="col-md-12">
-                                                        <label class="sr-only" for="name">Nombre usuario</label>
-                                                        <input type="text" id="name" class="form-control" placeholder="Tu nombre">
+                                                        <label class="sr-only" for="nombre">Nombre usuario</label>
+                                                        <input name="nombre" type="text" id="nombre" class="form-control" placeholder="Tu nombre">
                                                     </div>
 
                                                 </div>
@@ -112,12 +112,12 @@
                                                 <div class="row form-group">
                                                     <div class="col-md-12">
                                                         <label class="sr-only" for="email">Password</label>
-                                                        <input type="text" id="email" class="form-control" placeholder="Tu contraseña">
+                                                        <input name="email" type="text" id="email" class="form-control" placeholder="Tu contraseña">
                                                     </div>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <input type="submit" value="Entrar" class="btn btn-primary">
+                                                    <input name="loginSubmit" type="submit" value="Entrar" class="btn btn-primary">
                                                 </div>
                                             </form>
                                         </div>
