@@ -1,2 +1,2 @@
 ##README
-## Texto de prueba
+##Autores: Eva Lujan, Manuel Bondad, Iris Martínez
