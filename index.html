@@ -89,41 +89,44 @@
                                 <form id="formBooking" method="post" action="<?php ?>">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input name="destino" class="form-control" type="text" placeholder="Entra Ciudad">
+                                            <label for="destino"></label>
+                                            <input name="destino" class="form-control" type="text" placeholder="Ciudad destino">
                                             <span class="form-label">Destino</span>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="form-group">
+                                            <label for="huespedes"></label>
                                             <select name="huespedes" class="form-control">
                                                 <option>1</option>
                                                 <option>2</option>
                                                 <option>3</option>
                                                 <option>4</option>
                                             </select>
-                                            <span class="select-arrow"></span>
                                             <span class="form-label">Huespedes</span>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="form-group">
+                                            <label for="menores"></label>
                                             <select name="menores" class="form-control">
                                                 <option>0</option>
                                                 <option>1</option>
                                                 <option>2</option>
                                             </select>
-                                            <span class="select-arrow"></span>
                                             <span class="form-label">Menores</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                            <label for="checkin"></label>
                                             <input name="checkin" class="form-control" type="date" required>
                                             <span class="form-label">Check In</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                            <label for="checkout"></label>
                                             <input name="checkout" class="form-control" type="date" required>
                                             <span class="form-label">Check out</span>
                                         </div>
